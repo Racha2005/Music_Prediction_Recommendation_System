@@ -1,4 +1,4 @@
-# **Music Prediction & Recommendation Analysis — Dark Neon Edition**
+# **Music Prediction & Recommendation Analysis**
 
 This project is a complete, end-to-end music intelligence system combining data analytics, professional data visualization, machine-learning predictions, and an interactive recommendation engine.  
 It includes two interfaces — a **Streamlit Dashboard** and a **Tkinter Desktop Application** — both styled with a modern **Dark Neon** theme to provide a clean and engaging visual experience.
