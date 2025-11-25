@@ -1,17 +1,23 @@
 # 🎵 Music Prediction & Recommendation Analysis Project (Dark Neon)
 
 ### ▶ Run the Streamlit Dashboard
+```
 streamlit run music_app/app_streamlit/streamlit_dashboard_dark.py
-
+```
 ### ▶ Run Desktop Demo
-python -m music_app.app_desktop.desktop_app  
+```
+python -m music_app.app_desktop.desktop_app
+```
 # or  
+```
 python music_app/app_desktop/desktop_app.py
+```
 
 ### ▶ Train ML Models
+```
 python -m music_app.ml.train_popularity  
 python -m music_app.ml.train_mood
-
+```
 
 
 # 🎧 MUSIC PREDICTION AND RECOMMENDATION SYSTEM
@@ -47,7 +53,7 @@ This system helps users:
 
 
 ## 📁 FOLDER STRUCTURE
-
+```
 music_prediction_recommendation_analysis_project/  
 │  
 ├── setup.py  
@@ -95,36 +101,51 @@ music_prediction_recommendation_analysis_project/
         ├── app.py  
         └── templates/  
             └── index.html  
-
+```
 
 
 ## 🚀 RUN COMMANDS
 
 ### Activate Virtual Environment
+```
 .\venv\Scripts\Activate.ps1
+```
 
 ### Run Streamlit Dashboard
+```
 streamlit run music_app/app_streamlit/streamlit_dashboard_dark.py
+```
 
 ### Run Desktop Application
+```
 python music_app/app_desktop/desktop_app.py
+```
 
 ### Train Models
+```
 python -m music_app.ml.train_popularity  
 python -m music_app.ml.train_mood
+```
 
 ### Extract Audio Features
+```
 python music_app/extras/audio_features.py --folder data/audio --out data/audio_features.csv
+```
 
 ### Generate Image Hashes
+```
 python music_app/extras/image_hashing.py --folder data/covers --out data/image_hashes.csv
+```
 
 ### Lyrics Sentiment Analysis
+```
 python music_app/extras/lyrics_analysis.py --csv data/music_dataset_500.csv --out data/lyrics_analysis.csv
+```
 
 ### UMAP + KMeans Clustering
+```
 python music_app/extras/clustering.py --features data/audio_features.csv --out data/clusters.csv --n 8
-
+```
 
 
 ## 📊 FEATURES
