@@ -274,12 +274,6 @@ Perfect for:
 
 ## **Additional Information**
 
-### **Dark Theme Justification**
-Chosen to:
-- Improve visual contrast  
-- Highlight BI charts  
-- Provide a modern dashboard appearance  
-
 ### **Streamlit + Tkinter Combination**
 - Streamlit → deep, interactive analytics  
 - Tkinter → quick, offline-friendly UI  
@@ -291,13 +285,6 @@ Genre Match Weight
 − Popularity Difference 
 − Feature Distance (Energy, Valence, Danceability, Acousticness)
 ```
-
-### **ML Benefits**
-- Predicts potential hit tracks  
-- Groups songs by mood  
-- Enhances recommendation accuracy  
-
-
 
 ## **Key Outcomes**
 
