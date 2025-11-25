@@ -35,7 +35,7 @@ for c,img in zip(cols, [banner1, banner2, banner3]):
     except Exception as e:
         c.write("")
 
-st.markdown("<div class='big-title'>Music Prediction & Recommendation — Dark Neon Dashboard</div>", unsafe_allow_html=True)
+st.markdown("<div class='big-title'>Music Prediction & Recommendation Dashboard</div>", unsafe_allow_html=True)
 st.markdown("<div class='subtle'>Professional BI layout — KPIs, charts, and recommendations on a single screen</div>", unsafe_allow_html=True)
 
 # Load dataset (relative path from project root)
